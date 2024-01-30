@@ -1,0 +1,8 @@
+.navLink {
+  display: block;
+  transition: all 1s ease-in;
+}
+
+.openNavLink {
+  display: none;
+}

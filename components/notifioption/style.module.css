@@ -1,0 +1,28 @@
+.circle {
+  position: fixed;
+  bottom: 148px;
+  right: 24px;
+  z-index: 50;
+  margin: 0.8em 0.8em;
+  width: 3em;
+  height: 3em;
+  background: #8cdf93;
+  text-align: center;
+  line-height: 3em;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #f0f0ca;
+  border-radius: 60%;
+  display: inline-block;
+  animation-iteration-count: infinite;
+  animation: fadeInOut 3s infinite;
+  cursor: pointer;
+}
+@keyframes fadeInOut {
+  to {
+    transform: scale(1);
+  }
+  from {
+    transform: scale(1.2);
+  }
+}
